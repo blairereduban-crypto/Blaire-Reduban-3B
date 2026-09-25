@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - BSIT-3B_Ramirez</title>
+    <title>Personal Profile</title>
     <style>
         * {
             margin: 0;
@@ -12,8 +12,8 @@
         }
 
         :root {
-            --primary: #a10d8d;
-            --secondary: #f74e5c;
+            --primary: #0d47a1;
+            --secondary: #1565c0;
             --accent: #e3f2fd;
             --dark: #263238;
             --light: #f5f7fa;
@@ -149,120 +149,10 @@
                 overflow-x: auto;
             }
         }
-
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --primary: #ca3f5d;
-            --secondary: #ec5348;
-            --accent: #e3f2fd;
-            --dark: #263238;
-        }
-
-        body {
-            font-family: 'Segoe UI', Roboto, 'Times New Roman', Times, serif;
-            background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
-            min-height: 100vh;
-            padding: 40px 20px;
-            color: var(--dark);
-            line-height: 1.7;
-        }
-
-        .edu-wrapper {
-            max-width: 750px;
-            margin: 0 auto;
-            background: #ffffff;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(13, 71, 161, 0.12);
-            overflow: hidden;
-        }
-
-        .page-header {
-            background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
-            color: white;
-            padding: 30px 35px;
-            text-align: center;
-        }
-
-        .page-header h1 {
-            font-size: 28px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .page-body {
-            padding: 35px;
-        }
-
-        .section-title {
-            font-size: 20px;
-            font-weight: 700;
-            color: var(--primary);
-            padding-bottom: 8px;
-            border-bottom: 2px solid var(--accent);
-            margin-bottom: 20px;
-            text-transform: uppercase;
-        }
-
-        .edu-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-
-        .edu-table th {
-            background: var(--accent);
-            color: var(--primary);
-            padding: 14px 18px;
-            text-align: left;
-            font-size: 15px;
-            text-transform: uppercase;
-            border-bottom: 2px solid var(--primary);
-        }
-
-        .edu-table td {
-            padding: 14px 18px;
-            border-bottom: 1px solid #e0e0e0;
-            font-size: 15px;
-        }
-
-        .edu-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .level {
-            font-weight: 600;
-            color: var(--primary);
-        }
-
-        .highlight {
-            background: #f9fcff;
-        }
-
-        @media (max-width: 600px) {
-            .edu-table {
-                display: block;
-                overflow-x: auto;
-            }
-        }
     </style>
 </head>
 <body>
-
-    <nav>
-        <a href="#profile">Profile</a>
-        <a href="#education">Educational Background</a>
-    </nav>
-
-    <section id="profile">
-        <h1>Profile</h1>
-        <div class="profile-wrapper">
+    <div class="profile-wrapper">
         <!-- Header -->
         <header class="profile-header">
             <div class="header-info">
@@ -325,65 +215,5 @@
 
         </main>
     </div>
-    </section>
-
-    <section id="education">
-        <h2>Educational Background</h2>
-        <div class="edu-wrapper">
-        <header class="page-header">
-            <h1>Educational Background</h1>
-        </header>
-
-        <main class="page-body">
-            <h2 class="section-title">Education History</h2>
-            <table class="edu-table">
-                <thead>
-                    <tr>
-                        <th>Level</th>
-                        <th>School & Location</th>
-                        <th>Year Completed</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="level">Primary</td>
-                        <td>
-                            <strong>Dulag Central</strong><br>
-                            Dulag, Leyte
-                        </td>
-                        <td>2011 – 2017</td>
-                    </tr>
-                    <tr class="highlight">
-                        <td class="level">Junior High School</td>
-                        <td>
-                            <strong>Dulag National High School</strong><br>
-                            Dulag, Leyte
-                        </td>
-                        <td>2018 – 2019</td>
-                    </tr>
-                    <tr>
-                        <td class="level">Senior High School</td>
-                        <td>
-                            <strong>Dulag National High School</strong><br>
-                            Dulag, Leyte<br>
-                            <em>Strand: Humanities and Social Sciences</em>
-                        </td>
-                        <td>2023 – 2024</td>
-                    </tr>
-                    <tr class="highlight">
-                        <td class="level">Tertiary</td>
-                        <td>
-                            <strong>EVSU – Dulag Campus</strong><br>
-                            Dulag, Leyte<br>
-                            <em>Bachelor of Science in Information Technology</em>
-                        </td>
-                        <td><strong>Present</strong></td>
-                    </tr>
-                </tbody>
-            </table>
-        </main>
-    </div>
-    </section>
-
 </body>
 </html>
